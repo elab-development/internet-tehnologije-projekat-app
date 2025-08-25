@@ -1,0 +1,79 @@
+.SvaJela{
+    margin-left: 10px;
+}
+
+.ikonica{
+    margin-right: 3px;
+    padding-top:5px;
+}
+
+.SvaJela:hover {
+    color: white; 
+  }
+
+  .Kontakt:hover {
+    color: white;
+  }
+
+  .Login:hover{
+      color:white;
+  }
+
+  .Cart:hover{
+    color:white;
+  }
+
+  .Logout:hover{
+    color:white;
+  }
+
+.Register:hover {
+    color:white;
+}
+
+
+  .navBar .titl:hover,
+    .navBar .ikonica:hover {
+      color: white;
+    }
+
+    .navBar .titl:hover + .ikonica,
+    .navBar .ikonica:hover + .titl {
+      color: white;
+    }
+
+    .navBar {
+        display: flex;
+        align-items: center;
+        height: 50px;
+        background-color: #FFA500;
+      }
+      
+      .navBar a {
+        display: inline-block;
+        height: 100%;
+        padding: 0 15px;
+        text-decoration: none;
+        line-height: 50px;
+        color: #333;
+      }
+
+      .titl.active,
+.SvaJela.active , .Kontakt.active, .Logout.titl.active, .Login.active,.Register.active{
+  background-color: #ffb835;
+}
+
+.naziv{
+    display: flex;
+    align-items: center;
+  
+}
+
+.cart-icon {
+  margin-top: 3px; /* ili */
+  /* transform: translateY(2px); */
+  /* ovo može pomoći da se ikona poravna s tekstom */
+}
+
+      
+     
